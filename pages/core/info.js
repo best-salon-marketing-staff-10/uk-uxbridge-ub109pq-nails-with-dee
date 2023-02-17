@@ -96,7 +96,7 @@ const processedBusinessOpeningTime = {
 
 const changedInfo = {
  businessName: "Nails With Dee",
-  businessAddressLevel1: "404 Long Ln",
+  businessAddressLevel1: "404 Long Lane",
   businessAddressLevel2: "Uxbridge",
   businessAddressLevel3: "Hillingdon",
   businessAddressLevel4: "England",

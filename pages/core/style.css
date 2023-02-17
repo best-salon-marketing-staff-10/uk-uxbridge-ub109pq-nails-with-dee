@@ -960,7 +960,7 @@
       margin-right: 10px; 
     }
     .customer-review-carousel-image{
-      max-width: 480px;
+      max-width: 100%;
     }
     .customer-review-description{
       text-align: center;
