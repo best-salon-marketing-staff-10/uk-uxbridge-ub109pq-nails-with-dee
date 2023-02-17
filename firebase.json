@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "thenailbarchristchurch",
+    "site": "nails-with-dee-uxbridge",
     "public": "out",
     "ignore": [
       "firebase.json",
