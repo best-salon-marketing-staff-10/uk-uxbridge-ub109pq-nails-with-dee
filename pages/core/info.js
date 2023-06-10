@@ -112,7 +112,7 @@ const changedInfo = {
   businessPhoneNumber: "01895 742184",
 
   //Website tiệm KO có dấu / ở cuối 
-  businessWebsite: "",
+  businessWebsite: "https://nails-with-dee-uxbridge.web.app",
   linkBookingMap: "",
   linkBookingApp: "http://bit.ly/3k2Er4Y",
   linkToMap: "https://goo.gl/maps/WyhRfsr8b81pgHZa7",
@@ -354,11 +354,14 @@ const headerInput = {
   metaGeoPosition : changedInfo.geoLatitude + ", " + changedInfo.geoLongitude,
   metaGeoPlaceName : changedInfo.businessAddressLevel2 + ", " + changedInfo.businessCountry,
   metaGeoRegion: changedInfo.businessGeoRegionCode + "-" + changedInfo.businessAddressDivisionCode,
+
+  metaOgSiteName: changedInfo.businessName,
+  metaOgLocale: "en_GB",
   
   metaOgTitle: processedInfo.slogan,
   metaOgImage: changedInfo.ogImage,
-  metaOgImageWidth: "1200",
-  metaOgImageHeight: "630",
+  metaOgImageWidth: "1920",
+  metaOgImageHeight: "1073",
 
   metaGoogleSiteVerification: changedInfo.metaGoogleSiteVerification,
 }
@@ -579,7 +582,7 @@ const pageContent = {
   ourStoryDescription: "Located at " + changedInfo.businessAddressLevel1 + ", we are a nail shop in " + changedInfo.businessAddressLevel2 + ". Skilled manicurists and pedicurists look forward to bringing you the best products and services. We are always researching and learning the best products and services, trendy nails, to bring more and more satisfaction to customers who are coming to us.",
 
   //dong-vien-1.js
-  section1Heading: "We are " + seoKeyword.seoKeyword3 + " experienced manicurists and pedicurists",
+  section1Heading: "We are experienced manicurists and pedicurists in " + changedInfo.businessAddressLevel2,
   section1Description: "Are you looking for nail salon in " + changedInfo.businessAddressLevel2 + "? One of the best nail salon in " + changedInfo.businessAddressLevel3 + "? We are proud to say that here we are. We can give you amazing nails with our acrylic extensions and great relaxation with our manicure and pedicure services. We cater to both men and women. You can rest assured and get a sense of satisfaction when you come to us",
 
   //dong-vien-2.js
@@ -950,17 +953,17 @@ const images = {
   
     service23 : "Dipping Powder SNS (from)",
     service23Time : "45 mins",
-    service23Price : "30",
+    service23Price : "35",
     service23Description : "SNS Dipping Powder creates a stronger polish finish which can help strengthen brittle or weak nails. This innovative treatment will leave your hands looking fabulous, while also feeling lightweight and comfortable. The delicate touch of femininity will make you fall in love with yourself all over again. Indulge in a little pampering, and let our skilled technicians bring out the best in your nails. Get ready to feel confident, stylish, and beautiful with our Dipping Powder SNS.",
   
-    service24 : "BIAB buider gel Fullset",
+    service24 : "BIAB builder gel Fullset",
     service24Time : "35 mins",
-    service24Price : "35",
+    service24Price : "40",
     service24Description : "This service will leave your nails looking stunning and fabulous, making you feel confident and beautiful. The BIAB builder gel creates a long-lasting and durable finish for your nails, perfect for those who desire low maintenance and chip-free nails. Our skilled technicians will carefully apply the builder gel to create the look you desire, leaving you with salon-quality nails that will last for weeks. So, why not treat yourself and embrace the feeling of self-love by booking a BIAB Builder Gel Fullset today!",
   
-    service25 : "BIAB buider gel Infill",
+    service25 : "BIAB builder gel Infill",
     service25Time : "40 mins",
-    service25Price : "25",
+    service25Price : "30",
     service25Description : "Our gentle and skilled technicians will ensure your nails receive the ultimate pampering, leaving them looking and feeling revitalized. Say goodbye to chips, cracks, and brittle nails, and hello to the confidence that comes with having beautiful and healthy nails. Give yourself the gift of self-care and love, and let us take care of the rest. Book your appointment today and fall in love with your nails all over again!",
 
     service26 : "Long nails extra",
@@ -1246,6 +1249,12 @@ const images = {
     service84Price : "10",
     service84Description : "",
 
+    service85 : "BIAB builder gel Overlay",
+    service85Time : "35 mins",
+    service85Price : "35",
+    service85Description : "",
+    
+
 
 
     }; 
@@ -1309,7 +1318,7 @@ const images = {
   const serviceList3 = {
     service1 : "Manicure with normal polish",
     service1Time : "30 mins",
-    service1Price : "20",
+    service1Price : "15",
     service1Description : "A manicure is a cosmetic beauty treatment for the fingernails and hands performed at home or in a nail salon. A manicure consists of filing and shaping the free edge, pushing and clipping (with a cuticle pusher and cuticle nippers) any nonliving tissue (but limited to the cuticle and hangnails), treatments with various liquids, massage of the hand, and the application of fingernail polish. When the same is applied to the toenails and feet, the treatment is referred to as a pedicure. A classic manicure is all you need to take great care of your hands and nails. Includes massage, cuticle, shaping, file, polish and moisturiser.",
 
     service2 : "Pedicure with normal polish",
@@ -1522,7 +1531,6 @@ const images = {
     service6Price : "5",
     service6Description : "Indulge in the ultimate self-care experience with our Nail Art service. Discover the perfect way to express your personality and style through a customized design tailored to your taste. Our talented nail artists will turn your nails into a masterpiece, making you feel confident and beautiful from tip to toe. Embrace the latest fashion trends and indulge in the luxurious feeling of well-groomed nails. Love yourself and show off your new look with pride. Experience Nail Art and fall in love with your fabulous self.",
 
-    //
     service7 : "Nail Art ",
     service7Time : "",
     service7Price : "3",
