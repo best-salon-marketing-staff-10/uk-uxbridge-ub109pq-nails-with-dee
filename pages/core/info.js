@@ -26,7 +26,7 @@ schemaData - Là những thông tin sẽ hiển thị lên Schema của website
 
 pageContent - Chứa tất cả các nội dung của website trừ phần Button
 button - Tất cả về các nút, nội dung của nút, link nút sẽ dẫn đến khi click vào
-images - Đường link của tất cả các ảnh trên website
+images - Đường link của tất cả các ảnh trên websiteau
 serviceList1 - Danh sách các dịch vụ thuộc serviceCategory tương ứng
 serviceList2 - Danh sách các dịch vụ thuộc serviceCategory tương ứng
 serviceList3 - Danh sách các dịch vụ thuộc serviceCategory tương ứng
@@ -119,7 +119,7 @@ const changedInfo = {
 
   
 
-  //Mở Google Maps tiệm, zoom sát vào, chuột phải 51.551763801048494, -0.448523996596368
+  //Mở Google Maps tiệm, zoom sát vào, chuột phải 
   geoLatitude: 51.551763801048494,
   geoLongitude: -0.448523996596368,
 
@@ -432,13 +432,12 @@ const schemaInput = {
 
   schemaPriceRange: "££",
   //Cần đổi tên khách
-  schemaPersonReviewAuthorName: "",
-  //Xem điểm review trung bình của tiệm là bao nhiêu
-  schemaRatingValue: "",
+  schemaPersonReviewAuthorName: "Rachael", 
+  //Xem điểm review trung bình của tiệm là bao nhiêu 
   schemaBestRating: "5",
 
-  schemaGeoLatitude: 50.7337416093408,
-  schemaLongitude: -1.7761649676105957,
+  schemaGeoLatitude: 51.551763801048494,
+  schemaLongitude: -0.448523996596368,
 
   schemaUrl: changedInfo.businessWebsite,
 
