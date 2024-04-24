@@ -1323,7 +1323,7 @@ const images = {
 
     service2 : "Pedicure with normal polish",
     service2Time : "40 mins",
-    service2Price : "25",
+    service2Price : "30",
     service2Description : "A classic pedicure is all you need to take great care of your feet and nails. Includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
   
     service3 : "Gel Colour Luxury Pedicure",
@@ -1343,7 +1343,7 @@ const images = {
 
     service6 : "Shape & paint on hands",
     service6Time : "15 mins",
-    service6Price : "8",
+    service6Price : "10",
     service6Description : "Want to show off your individuality? Come to " + changedInfo.businessName + " to paint on your nails with designs from experts at our " + seoKeyword.seoKeyword1,
 
     service7 : "Shape & paint on toes",
